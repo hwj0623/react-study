@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+
+#Git VCS info
+.idea
+
 # testing
 /coverage
 
