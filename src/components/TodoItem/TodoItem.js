@@ -21,7 +21,6 @@ class TodoItem extends Component{
                 }
                 }>[지우기]</div>
             </div>
-
         )
     }
 }
