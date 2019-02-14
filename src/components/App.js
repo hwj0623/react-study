@@ -1,7 +1,23 @@
 import React, {Component} from 'react';
 import PageTemplate from './PageTemplate';
-import TodoInput from './TodoInput';
-import TodoList from './TodoList';
+/**to be inserted **/
+import TodoInputComponent from '../containers/TodoInputContainer';
+import TodoListComponent from '../containers/TodoListContainer'
+
+class App extends Component {
+    render(){
+        return (
+            <PageTemplate>
+            <TodoInputComponent/>
+                <TodoListComponent />
+            </PageTemplate>
+        )
+    }
+}
+export default App;
+/**to be deleted
+// import TodoInput from './TodoInput';
+// import TodoList from './TodoList';
 
 class App extends Component {
 
@@ -103,4 +119,5 @@ class App extends Component {
     }
 }
 
-export default App;
+ export default App;
+ **/
